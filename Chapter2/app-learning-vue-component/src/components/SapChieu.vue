@@ -1,5 +1,5 @@
 <template>
-    <h1>Local Component</h1>
+    <h1>Sắp Chiếu</h1>
 </template>
 <script>
 export default {};

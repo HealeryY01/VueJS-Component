@@ -6,11 +6,17 @@
                     @custom-handle-select="hanldeSeclect" />
             </div>
         </div>
+        <div>
+            <Teleport to="body">
+                <BaseModal />
+            </Teleport>
+        </div>
     </section>
 </template>
 
 <script>
 import ProductItem from './ProductItem.vue';
+import BaseModal from './BaseModal.vue';
 export default {
     methods: {
         hanldeSeclect(proItem) {
@@ -40,6 +46,7 @@ export default {
     },
     components: {
         ProductItem,
+        BaseModal,
     }
 }
 </script>

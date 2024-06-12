@@ -7,12 +7,13 @@
         <button class="btn btn-info" @click="hanldeSelect(proItem)">
             select
         </button>
-        <p>{{ multipleType }}</p>
         <p>{{ user }}</p>
+        <GobalComponent />
     </div>
 </template>
 
 <script>
+
 export default {
     methods: {
         hanldeSelect(proItem) {
